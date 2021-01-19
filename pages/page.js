@@ -16,7 +16,7 @@ router.get("/", (req,res) => {
 router.post("/main",(req,res) => {
 	// socket = req.soc.io
 	//checking the password
-	if(req.body.pass === "starboy")
+	if(req.body.pass === "surreal")
 	{
 		name = req.body.name
 		res.render("index")
