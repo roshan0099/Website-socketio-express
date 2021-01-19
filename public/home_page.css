@@ -1,0 +1,159 @@
+body,html{
+	margin: 0px;
+	height: 100%;
+	width: 100%;
+
+}
+
+body{
+	/*background-color: rgb(32,78,122);*/
+	background-image: linear-gradient(to right, #93a5cf, #e4efe9);
+}
+
+.main_real{
+	margin: 0px;
+}
+
+/*for computers*/
+
+@media screen and (min-width : 587px)
+{
+#main_title{
+	/*margin-top: 40px;*/
+	padding-top: 70px;
+	padding-left: 20px;
+	font-size: 100px;
+}
+
+.login{
+	height: 45px;
+	/*letter-spacing: 3px;*/
+	font-style: italic;
+	font-size: 22px;
+}
+#main{
+	margin-top: 130px;
+	align-items: center;
+	display: flex;
+/*	justify-content: center*/
+	flex-direction: column;
+	height : 200px;
+}
+
+.name_field{
+	padding-left: 10px;
+	border: none;
+	outline : none;
+	font-size: 17px;
+	background-color: rgb(255, 255,255,0.10);
+	height : 35px;
+	width : 350px;
+	border-bottom: 1px solid black;
+	transition : 2s;
+}
+
+.name_field:hover{
+	background-color: rgb(0,0,0,0.16);
+	border-bottom-color: rgb(14, 101, 207);  
+
+}
+
+.butt{
+	border : none;
+	height: 40px;
+	outline: none;
+	width: 80px;
+	background-color: 	rgb(255, 255,255,0.16);
+	cursor : pointer;
+	border-radius: 10px;
+	transition: 1s;
+	font-size: 15px;
+}	
+
+
+.butt:hover{ 
+	background-color: rgb(0,0,0,0.20);
+
+}
+.cont_name{
+
+	height : 70px;
+}
+
+.cont_pass{
+	height : 65px;
+}
+
+}
+
+/*for phones*/
+
+@media screen and (max-width : 587px)
+{
+#main_title{
+	/*margin-top: 40px;*/
+	padding-top: 70px;
+	padding-left: 20px;
+	font-size: 85px;
+}
+
+.login{
+	height: 45px;
+	letter-spacing: 3px;
+	font-style: italic;
+	font-size: 22px;
+}
+#main{
+	margin-top: 130px;
+	align-items: center;
+	display: flex;
+/*	justify-content: center*/
+	flex-direction: column;
+	height : 200px;
+}
+
+.name_field{
+	padding-left: 10px;
+	border: none;
+	outline : none;
+	font-size: 17px;
+	background-color: rgb(255, 255,255,0.10);
+	height : 30px;
+	width : 250px;
+	border-bottom: 1px solid black;
+	transition : 2s;
+}
+
+.name_field:hover{
+	background-color: rgb(0,0,0,0.16);
+	border-bottom-color: rgb(14, 101, 207);  
+
+}
+
+.butt{
+	border : none;
+	height: 35px;
+	outline: none;
+	width: 75px;
+	background-color: 	rgb(255, 255,255,0.16);
+	cursor : pointer;
+	border-radius: 10px;
+	transition: 1s;
+	font-size: 15px;
+}	
+
+
+.butt:hover{ 
+	background-color: rgb(0,0,0,0.20);
+
+}
+.cont_name{
+
+	height : 70px;
+}
+
+.cont_pass{
+	height : 65px;
+}
+
+}
